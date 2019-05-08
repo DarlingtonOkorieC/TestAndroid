@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgapp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.darlington.testandroid.MainActivity">
+
+    <TextView
+        android:id="@+id/textScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkpoint Time"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/bigboss"
+        android:layout_marginTop="50dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icboss"/>
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome! Ready for boss?"
+        android:width="220dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/textbtn"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:textSize="28sp"
+        android:textAllCaps="false"
+        android:text="Continue"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bgbtn"/>
+    <TextView
+        android:id="@+id/textBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Home"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
